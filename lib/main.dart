@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:konut/screens/homescreen/homePage.dart';
-import 'package:konut/screens/splashscreen/splashScreen.dart';
+import 'package:konut/screens/onboardingscreen/onboardingScreen.dart';
+
+// import 'package:konut/screens/splashscreen/splashScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: SplashScreen(),
+      home: onboardingScreen(),
     );
     return materialApp;
   }

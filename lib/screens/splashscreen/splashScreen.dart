@@ -5,13 +5,6 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text(
-          'Konut',
-          style: TextStyle(fontSize: 54, fontWeight: FontWeight.bold),
-        ),
-      ),
-    );
+    return const Placeholder();
   }
 }
